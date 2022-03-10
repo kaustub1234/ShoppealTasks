@@ -1,0 +1,67 @@
+body{
+    background-color: #000000;
+    color:#FFC107;
+    text-align: center;
+    margin: 0;
+    padding: 2rem 4rem;
+    box-sizing: border-box;
+}
+
+p{
+    text-align: justify;
+}
+
+main{
+    margin: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.serviceCard{
+    background-color: #FFC107;
+    border-radius: 10px;
+    color: #000000;
+    padding: 2em 4em;
+}
+
+.serviceCard__logo{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.serviceCard:hover{
+    cursor: pointer;
+    background-color:#000000;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+}
+
+.serviceCard:hover .serviceCard__footer{
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 0px;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #FFC107;
+    color: black;
+}
+
+button:hover{
+    background-color: #000000;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+}
