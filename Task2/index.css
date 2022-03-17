@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    background-color: #000000;;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 20%;
+}
+
+.pricing-card{
+    margin: 10px 10%;
+}
+
+.card-body{
+    background-color: #FFC107;
+}
+
+.card{
+    transition: all 250ms;
+}
+
+.card:hover{
+    transform: scale(1.18);
+    cursor: pointer;
+}
+
+.card:hover .card-body{
+    background-color: white;
+}
+.card:hover .card-header{
+    background-color: #FFC107;
+}
+
+.page-item  a{
+    color: #000000;
+}
+
+.page-item  a:hover{
+    background-color: #FFC107;
+    color: #000000;
+    cursor: pointer;
+}
+
+.activ{
+    background-color: #FFC107;
+    cursor: pointer;
+}
+
