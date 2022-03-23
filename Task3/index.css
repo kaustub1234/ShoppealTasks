@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.CarouselContainer {
+    margin: 10px 20px 10px 20px;
+}
+
+.CarouselContainer img {
+    height: 15rem;
+    width: 100%;
+}
+
+.trendingcourses {
+    margin: 10px 20px 10px 20px;
+}
+
+.trendingcourses h1 {
+    margin-bottom: 20px;
+}
+
+.CourseCard:hover {
+    transform: scale(1.05);
+}
+
+#media-holder-action,
+#media-holder-drama,
+#media-holder-scifi {
+    clear: both;
+}
+
+.popular-heading {
+    border-bottom: 1px solid white;
+    margin-top: 50px;
+}
+
+#media-container-action,
+#media-container-drama,
+#media-container-scifi {
+    height: 250px;
+}
+
+.media-content {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 10px 5px;
+    float: left;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.733);
+    /* Black background with 0.5 opacity */
+    color: #ffe600;
+    width: 100%;
+    text-align: center;
+}
+
+.overlay:hover{
+    height: 100%;
+}
+
+.coursesContainer{
+    margin-bottom: 15px;
+    padding-top: 20px;
+    border-top: 2px solid white;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
